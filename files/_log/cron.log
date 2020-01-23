@@ -1,0 +1,112 @@
+2020-01-23 17:35:30 [@ODBJFNPC002032]
+Interno #1: Executar createinquest
+2020-01-23 17:37:36 [@ODBJFNPC002032]
+Interno #1: Executar watcher
+2020-01-23 17:43:39 [@ODBJFNPC002032]
+Interno #1: Executar ticketrecurrent
+2020-01-23 17:44:49 [@ODBJFNPC002032]
+Interno #1: Executar planningrecall
+2020-01-23 17:45:12 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 17:45:50 [@ODBJFNPC002032]
+Interno #1: Executar queuednotificationclean
+2020-01-23 17:46:23 [@ODBJFNPC002032]
+Interno #1: Executar temp
+2020-01-23 17:48:20 [@ODBJFNPC002032]
+Interno #1: Executar mailgateerror
+2020-01-23 17:49:11 [@ODBJFNPC002032]
+Interno #1: Executar contract
+2020-01-23 17:52:01 [@ODBJFNPC002032]
+Interno #1: Executar infocom
+2020-01-23 17:52:39 [@ODBJFNPC002032]
+Interno #1: Executar mailgate
+2020-01-23 17:53:51 [@ODBJFNPC002032]
+Interno #1: Executar session
+2020-01-23 17:54:29 [@ODBJFNPC002032]
+Interno #1: Executar graph
+2020-01-23 17:55:07 [@ODBJFNPC002032]
+Interno #1: Executar reservation
+2020-01-23 17:57:13 [@ODBJFNPC002032]
+Interno #1: Executar closeticket
+2020-01-23 18:01:46 [@ODBJFNPC002032]
+Interno #1: Executar alertnotclosed
+2020-01-23 18:02:49 [@ODBJFNPC002032]
+Interno #1: Executar slaticket
+2020-01-23 18:03:04 [@ODBJFNPC002032]
+Interno #1: Executar olaticket
+2020-01-23 18:03:25 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 18:03:57 [@ODBJFNPC002032]
+Interno #1: Executar planningrecall
+2020-01-23 18:04:11 [@ODBJFNPC002032]
+Interno #1: Executar mailgate
+2020-01-23 18:04:27 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 18:10:26 [2@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 18:10:32 [@ODBJFNPC002032]
+Interno #1: Executar slaticket
+2020-01-23 18:10:51 [@ODBJFNPC002032]
+Interno #1: Executar planningrecall
+2020-01-23 18:11:25 [@ODBJFNPC002032]
+Interno #1: Executar olaticket
+2020-01-23 18:12:14 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 18:12:35 [@ODBJFNPC002032]
+Interno #1: Nada a ser executado
+2020-01-23 18:13:01 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 18:13:13 [@ODBJFNPC002032]
+Interno #1: Nada a ser executado
+2020-01-23 18:15:37 [@ODBJFNPC002032]
+Interno #1: Executar mailgate
+2020-01-23 18:15:44 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 18:17:00 [@ODBJFNPC002032]
+Interno #1: Executar slaticket
+2020-01-23 18:22:17 [@ODBJFNPC002032]
+Interno #1: Executar planningrecall
+2020-01-23 18:22:26 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 18:22:33 [@ODBJFNPC002032]
+Interno #1: Executar olaticket
+2020-01-23 18:22:40 [@ODBJFNPC002032]
+Interno #1: Executar slaticket
+2020-01-23 18:22:53 [@ODBJFNPC002032]
+Interno #1: Nada a ser executado
+2020-01-23 18:23:35 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 18:23:45 [@ODBJFNPC002032]
+Interno #1: Nada a ser executado
+2020-01-23 18:23:46 [@ODBJFNPC002032]
+Interno #1: Nada a ser executado
+2020-01-23 18:24:50 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 18:27:57 [@ODBJFNPC002032]
+Interno #1: Executar mailgate
+2020-01-23 18:28:05 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 18:28:14 [@ODBJFNPC002032]
+Interno #1: Executar slaticket
+2020-01-23 18:28:29 [@ODBJFNPC002032]
+Interno #1: Executar planningrecall
+2020-01-23 18:34:32 [@ODBJFNPC002032]
+Interno #1: Executar olaticket
+2020-01-23 18:39:02 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 18:44:19 [@ODBJFNPC002032]
+Interno #1: Executar slaticket
+2020-01-23 18:44:25 [@ODBJFNPC002032]
+Interno #1: Executar planningrecall
+2020-01-23 19:13:52 [@ODBJFNPC002032]
+Interno #1: Executar mailgate
+2020-01-23 19:14:07 [@ODBJFNPC002032]
+Interno #1: Executar olaticket
+2020-01-23 19:14:37 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 19:16:02 [@ODBJFNPC002032]
+Interno #1: Executar ticketrecurrent
+2020-01-23 19:16:35 [@ODBJFNPC002032]
+Interno #1: Executar temp
+2020-01-23 19:56:55 [2@ODBJFNPC002032]
+Interno #1: Executar slaticket
