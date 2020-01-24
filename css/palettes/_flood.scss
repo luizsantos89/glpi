@@ -31,11 +31,11 @@
 /* ===== LOGIN ===== */
 
 #firstboxlogin {
-   background-color: #006573;
+   background-color: #E2392B;
 }
 
 #logo_login {
-   background: url(../pics/login_logo_glpi.png) center no-repeat, #008B8D;
+   background: url(../pics/login_logo_glpi.png) center no-repeat, #A2291F;
 }
 
 #display-login {
@@ -43,66 +43,58 @@
 }
 
 #text-login {
-   background-color: #008B8D;
+   background-color: #A2291F;
    color: #FFF;
 }
 
 /* ====== GENERAL ====== */
 
 a {
-   color: #006573;
+   color: #C83226;
 
    &:link {
-      color: #006573;
+      color: #C83226;
    }
 }
 
-.ui-widget-content a {
-   color: #006573;
-}
-
-.main_form tr.headerRow th {
-   color: #81BEAA;
+.ui-widget-content a, .main_form tr.headerRow th {
+   color: #C83226;
 }
 
 /* ====== HEADER ====== */
 
 #header_top {
-   background-color: #006573;
+   background-color: #A2291F;
 }
 
 #c_preference a, #language_link > span {
-   color: #81BEAA;
+   color: #E9CAC8;
 }
 
 #c_recherche form #champRecherche input {
-   background-color: #005572;
-   color: #F4D4AD;
+   background-color: #621913;
+   color: #E9CAC8;
 }
 
 #c_menu {
-   background-color: #008B8D;
+   background-color: #E2392B;
 }
 
 ul {
    &#menu {
       a {
          &.itemP, &.itemP1 {
-            color: #fff;
+            color: #FFF;
          }
       }
 
-      ul li a {
-         color: #006573;
-      }
-
       > li.active {
-         background-color: #006573;
+         background-color: #A2291F;
       }
    }
 
    &.ssmenu li.active {
-      background-color: #006573;
+      background-color: #A2291F;
    }
 
    &#menu {
@@ -115,20 +107,18 @@ ul {
             color: #FFF;
          }
 
-         li a:hover {
-            background: #81BEAA;
-            color: #000;
+         li a {
+            &:hover {
+               background: #EB3B2C;
+               color: #FFF;
+            }
+
+            color: #C83226;
          }
       }
 
       > li:hover {
-         background-color: #81BEAA;
-         color: #000;
-
-         > a {
-            background-color: #81BEAA;
-            color: #000;
-         }
+         background-color: #EF3C2D;
       }
    }
 }
@@ -140,30 +130,30 @@ ul {
 /* ====== BUTTONS ====== */
 
 input.submit, span.vsubmit, a.vsubmit, .ui-widget-content span.vsubmit, a.vsubmit, #BackToTop {
-   color: #816644;
-   background-color: #F4D4AD;
+   color: #FFF;
+   background-color: #FB6356;
 }
 
 .vsubmit a {
-   color: #816644;
+   color: #FFF;
    text-decoration: underline;
 }
 
 input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
-   background-color: #F4D4AD;
+   background-color: #FB6356;
 }
 
 /* ====== Breadcrumb ====== */
 
 .breadcrumb_item:nth-of-type(3) {
-   background-color: #F4D4AD;
+   background-color: #FB6356;
 
    a {
-      color: #816644 !important;
+      color: #FFF !important;
    }
 
    &:after {
-      border-left-color: #F4D4AD;
+      border-left-color: #FB6356;
    }
 }
 
@@ -171,7 +161,7 @@ input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
 /* Colors are same as #c_menu */
 
 .primary-bg {
-   background: #008B8D;
+   background: #E2392B;
 }
 
 .primary-bg-inverse {
@@ -187,10 +177,10 @@ input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
 }
 
 .primary-fg-inverse {
-   color: #008B8D;
+   color: #E2392B;
 
    &:hover {
-      color: #008B8D;
+      color: #E2392B;
    }
 }
 
@@ -207,16 +197,16 @@ input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
       color: white;
 
       &:hover {
-         background: #81BEAA;
+         background: #EF3C2D;
       }
    }
 
    a {
-      color: #006573;
+      color: #C83226;
 
       &:hover {
-         background-color: #008B8D;
-         color: black;
+         background-color: #E2392B;
+         color: white;
       }
    }
 }

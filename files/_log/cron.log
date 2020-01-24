@@ -110,3 +110,39 @@ Interno #1: Executar ticketrecurrent
 Interno #1: Executar temp
 2020-01-23 19:56:55 [2@ODBJFNPC002032]
 Interno #1: Executar slaticket
+2020-01-23 20:04:32 [@ODBJFNPC002032]
+Interno #1: Executar planningrecall
+2020-01-23 20:04:41 [@ODBJFNPC002032]
+Interno #1: Executar graph
+2020-01-23 20:11:19 [@ODBJFNPC002032]
+Interno #1: Executar reservation
+2020-01-23 20:12:31 [@ODBJFNPC002032]
+Interno #1: Executar queuednotification
+2020-01-23 20:33:59 [@ODBJFNPC002032]
+Interno #1: Executar olaticket
+2020-01-23 20:48:46 [@ODBJFNPC002032]
+Interno #1: Executar mailgate
+2020-01-23 20:50:59 [@ODBJFNPC002032]
+Interno #1: Executar slaticket
+2020-01-23 20:59:53 [@ODBJFNPC002032]
+Interno #1: Executar planningrecall
+2020-01-24 11:38:15 [@ODBJFPC002032]
+Interno #1: Executar queuednotification
+2020-01-24 11:40:29 [@ODBJFPC002032]
+Interno #1: Executar ticketrecurrent
+2020-01-24 11:44:54 [@ODBJFPC002032]
+Interno #1: Executar temp
+2020-01-24 11:55:36 [2@ODBJFPC002032]
+Interno #1: Executar olaticket
+2020-01-24 12:01:25 [2@ODBJFPC002032]
+Interno #1: Executar slaticket
+2020-01-24 12:06:12 [@ODBJFPC002032]
+Interno #1: Executar mailgate
+2020-01-24 12:24:55 [5@ODBJFPC002032]
+Interno #1: Executar graph
+2020-01-24 12:52:53 [5@ODBJFPC002032]
+Interno #1: Executar planningrecall
+2020-01-24 12:59:33 [5@ODBJFPC002032]
+Interno #1: Executar reservation
+2020-01-24 13:04:45 [@ODBJFPC002032]
+Interno #1: Executar closeticket

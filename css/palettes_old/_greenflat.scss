@@ -31,11 +31,11 @@
 /* ===== LOGIN ===== */
 
 #firstboxlogin {
-   background-color: #E2392B;
+   background-color: #54BD90;
 }
 
 #logo_login {
-   background: url(../pics/login_logo_glpi.png) center no-repeat, #A2291F;
+   background: url(../pics/login_logo_glpi.png) center no-repeat, #09A071;
 }
 
 #display-login {
@@ -43,41 +43,41 @@
 }
 
 #text-login {
-   background-color: #A2291F;
+   background-color: #09A071;
    color: #FFF;
 }
 
 /* ====== GENERAL ====== */
 
 a {
-   color: #C83226;
+   color: #007A58;
 
    &:link {
-      color: #C83226;
+      color: #007A58;
    }
 }
 
 .ui-widget-content a, .main_form tr.headerRow th {
-   color: #C83226;
+   color: #007A58;
 }
 
 /* ====== HEADER ====== */
 
 #header_top {
-   background-color: #A2291F;
+   background-color: #09A071;
 }
 
 #c_preference a, #language_link > span {
-   color: #E9CAC8;
+   color: #FFF;
 }
 
 #c_recherche form #champRecherche input {
-   background-color: #621913;
-   color: #E9CAC8;
+   background-color: #004630;
+   color: #FFF;
 }
 
 #c_menu {
-   background-color: #E2392B;
+   background-color: #54BD90;
 }
 
 ul {
@@ -89,36 +89,25 @@ ul {
       }
 
       > li.active {
-         background-color: #A2291F;
+         background-color: #007A58;
       }
    }
 
    &.ssmenu li.active {
-      background-color: #A2291F;
+      background-color: #007A58;
    }
 
    &#menu {
-      > li.active > a {
-         color: #FFF;
-      }
-
-      ul {
-         &.ssmenu li.active > a {
-            color: #FFF;
-         }
-
-         li a {
-            &:hover {
-               background: #EB3B2C;
-               color: #FFF;
-            }
-
-            color: #C83226;
-         }
-      }
-
       > li:hover {
-         background-color: #EF3C2D;
+         background-color: #09A071;
+      }
+
+      ul li a {
+         &:hover {
+            background: #54BD90;
+         }
+
+         color: #004A33;
       }
    }
 }
@@ -129,39 +118,15 @@ ul {
 
 /* ====== BUTTONS ====== */
 
-input.submit, span.vsubmit, a.vsubmit, .ui-widget-content span.vsubmit, a.vsubmit, #BackToTop {
-   color: #FFF;
-   background-color: #FB6356;
-}
-
-.vsubmit a {
-   color: #FFF;
-   text-decoration: underline;
-}
-
-input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
-   background-color: #FB6356;
-}
-
-/* ====== Breadcrumb ====== */
-
-.breadcrumb_item:nth-of-type(3) {
-   background-color: #FB6356;
-
-   a {
-      color: #FFF !important;
-   }
-
-   &:after {
-      border-left-color: #FB6356;
-   }
+a.vsubmit, .vsubmit a {
+   color: #8f5a0a;
 }
 
 /* Primary color elements (white on blue BG) designed to be overridden from palettes */
 /* Colors are same as #c_menu */
 
 .primary-bg {
-   background: #E2392B;
+   background: #54BD90;
 }
 
 .primary-bg-inverse {
@@ -177,18 +142,10 @@ input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
 }
 
 .primary-fg-inverse {
-   color: #E2392B;
+   color: #54BD90;
 
    &:hover {
-      color: #E2392B;
-   }
-}
-
-#c_preference a.debugon {
-   color: black !important;
-
-   &:hover {
-      color: black !important;
+      color: #54BD90;
    }
 }
 
@@ -197,16 +154,16 @@ input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
       color: white;
 
       &:hover {
-         background: #EF3C2D;
+         background: #09A071;
       }
    }
 
    a {
-      color: #C83226;
+      color: #004A33;
 
       &:hover {
-         background-color: #E2392B;
-         color: white;
+         background-color: #54BD90;
+         color: #004A33;
       }
    }
 }

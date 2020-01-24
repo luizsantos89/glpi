@@ -31,11 +31,11 @@
 /* ===== LOGIN ===== */
 
 #firstboxlogin {
-   background-color: #E2392B;
+   background-color: #006573;
 }
 
 #logo_login {
-   background: url(../pics/login_logo_glpi.png) center no-repeat, #A2291F;
+   background: url(../pics/login_logo_glpi.png) center no-repeat, #008B8D;
 }
 
 #display-login {
@@ -43,58 +43,71 @@
 }
 
 #text-login {
-   background-color: #A2291F;
+   background-color: #008B8D;
    color: #FFF;
 }
 
 /* ====== GENERAL ====== */
 
 a {
-   color: #C83226;
+   color: #006573;
 
    &:link {
-      color: #C83226;
+      color: #006573;
    }
 }
 
-.ui-widget-content a, .main_form tr.headerRow th {
-   color: #C83226;
+.ui-widget-content a {
+   color: #006573;
+}
+
+.main_form tr.headerRow th {
+   color: #81BEAA;
 }
 
 /* ====== HEADER ====== */
 
 #header_top {
-   background-color: #A2291F;
+   background-color: #064260;
 }
 
 #c_preference a, #language_link > span {
-   color: #E9CAC8;
+   color: #f2ef9f;
 }
 
 #c_recherche form #champRecherche input {
-   background-color: #621913;
-   color: #E9CAC8;
+   background-color: #096390;
+   color: #fff;
+
+   &::-webkit-input-placeholder {
+      background-color: #096390;
+      color: #fff;
+   }
 }
 
 #c_menu {
-   background-color: #E2392B;
+   background-color: #bf0805;
 }
 
 ul {
    &#menu {
       a {
          &.itemP, &.itemP1 {
-            color: #FFF;
+            color: #fff;
          }
       }
 
+      ul li a {
+         color: #bf0805;
+      }
+
       > li.active {
-         background-color: #A2291F;
+         background-color: #064260;
       }
    }
 
    &.ssmenu li.active {
-      background-color: #A2291F;
+      background-color: #064260;
    }
 
    &#menu {
@@ -107,61 +120,75 @@ ul {
             color: #FFF;
          }
 
-         li a {
-            &:hover {
-               background: #EB3B2C;
-               color: #FFF;
-            }
-
-            color: #C83226;
+         li a:hover {
+            background: #c90805;
+            color: #fff;
          }
       }
 
       > li:hover {
-         background-color: #EF3C2D;
+         background-color: #064260;
+         color: #fff;
+
+         > a {
+            background-color: #064260;
+            color: #fff;
+         }
       }
    }
 }
 
-#c_recherche form #champRecherche button {
-   background-color: white;
-}
-
 /* ====== BUTTONS ====== */
 
-input.submit, span.vsubmit, a.vsubmit, .ui-widget-content span.vsubmit, a.vsubmit, #BackToTop {
-   color: #FFF;
-   background-color: #FB6356;
+input.submit {
+   background-color: #bf0805;
+   color: #fff;
+
+   &:hover {
+      background-color: #f9201d;
+   }
 }
 
-.vsubmit a {
-   color: #FFF;
-   text-decoration: underline;
+a.vsubmit {
+   background-color: #bf0805;
+   color: #fff;
+
+   &:hover {
+      background-color: #d6665a;
+   }
 }
 
-input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
-   background-color: #FB6356;
+#BackToTop {
+   background-color: #FF5131;
+   color: #fff;
 }
 
-/* ====== Breadcrumb ====== */
+/* ====== BREADCRUMB ====== */
 
-.breadcrumb_item:nth-of-type(3) {
-   background-color: #FB6356;
+#c_ssmenu2 .breadcrumb_item:nth-of-type(3) {
+   background-color: #064260;
 
    a {
-      color: #FFF !important;
+      color: #fff;
    }
 
    &:after {
-      border-left-color: #FB6356;
+      border-left-color: #064260;
    }
+}
+
+.primary {
+   /* Primary color elements (white on blue BG) designed to be overridden from palettes */
+   /* Colors are same as #c_menu */
+   background: #bf0805;
+   color: white;
 }
 
 /* Primary color elements (white on blue BG) designed to be overridden from palettes */
 /* Colors are same as #c_menu */
 
 .primary-bg {
-   background: #E2392B;
+   background: #bf0805;
 }
 
 .primary-bg-inverse {
@@ -177,18 +204,10 @@ input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
 }
 
 .primary-fg-inverse {
-   color: #E2392B;
+   color: #bf0805;
 
    &:hover {
-      color: #E2392B;
-   }
-}
-
-#c_preference a.debugon {
-   color: black !important;
-
-   &:hover {
-      color: black !important;
+      color: #bf0805;
    }
 }
 
@@ -197,15 +216,15 @@ input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
       color: white;
 
       &:hover {
-         background: #EF3C2D;
+         background: #064260;
       }
    }
 
    a {
-      color: #C83226;
+      color: #bf0805;
 
       &:hover {
-         background-color: #E2392B;
+         background-color: #bf0805;
          color: white;
       }
    }

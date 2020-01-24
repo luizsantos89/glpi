@@ -31,11 +31,11 @@
 /* ===== LOGIN ===== */
 
 #firstboxlogin {
-   background-color: #19BEC0;
+   background-color: #E2392B;
 }
 
 #logo_login {
-   background: url(../pics/login_logo_glpi.png) center no-repeat, #113F59;
+   background: url(../pics/login_logo_glpi.png) center no-repeat, #A2291F;
 }
 
 #display-login {
@@ -43,45 +43,41 @@
 }
 
 #text-login {
-   background-color: #113F59;
+   background-color: #A2291F;
    color: #FFF;
 }
 
 /* ====== GENERAL ====== */
 
 a {
-   color: #113E58;
+   color: #C83226;
 
    &:link {
-      color: #113E58;
+      color: #C83226;
    }
 }
 
-.ui-widget-content a {
-   color: #113E58;
-}
-
-.main_form tr.headerRow th {
-   color: #19BEC0;
+.ui-widget-content a, .main_form tr.headerRow th {
+   color: #C83226;
 }
 
 /* ====== HEADER ====== */
 
 #header_top {
-   background-color: #113F59;
+   background-color: #A2291F;
 }
 
 #c_preference a, #language_link > span {
-   color: #F3EDD3;
+   color: #E9CAC8;
 }
 
 #c_recherche form #champRecherche input {
-   background-color: #0C2736;
-   color: #F3EDD3;
+   background-color: #621913;
+   color: #E9CAC8;
 }
 
 #c_menu {
-   background-color: #19BEC0;
+   background-color: #E2392B;
 }
 
 ul {
@@ -93,36 +89,36 @@ ul {
       }
 
       > li.active {
-         background-color: #113F59;
+         background-color: #A2291F;
       }
    }
 
    &.ssmenu li.active {
-      background-color: #113F59;
+      background-color: #A2291F;
    }
 
    &#menu {
       > li.active > a {
-         color: #F3EDD3;
+         color: #FFF;
       }
 
       ul {
          &.ssmenu li.active > a {
-            color: #F3EDD3;
+            color: #FFF;
          }
 
          li a {
             &:hover {
-               background: #19BEC0;
-               color: #113F59;
+               background: #EB3B2C;
+               color: #FFF;
             }
 
-            color: #113F59;
+            color: #C83226;
          }
       }
 
       > li:hover {
-         background-color: #20D6C7;
+         background-color: #EF3C2D;
       }
    }
 }
@@ -134,30 +130,30 @@ ul {
 /* ====== BUTTONS ====== */
 
 input.submit, span.vsubmit, a.vsubmit, .ui-widget-content span.vsubmit, a.vsubmit, #BackToTop {
-   color: #F3EDD3;
-   background-color: #D54F58;
+   color: #FFF;
+   background-color: #FB6356;
 }
 
 .vsubmit a {
-   color: #F3EDD3;
+   color: #FFF;
    text-decoration: underline;
 }
 
 input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
-   background-color: #D54F58;
+   background-color: #FB6356;
 }
 
 /* ====== Breadcrumb ====== */
 
 .breadcrumb_item:nth-of-type(3) {
-   background-color: #D54F58;
+   background-color: #FB6356;
 
    a {
-      color: #F3EDD3 !important;
+      color: #FFF !important;
    }
 
    &:after {
-      border-left-color: #D54F58;
+      border-left-color: #FB6356;
    }
 }
 
@@ -165,7 +161,7 @@ input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
 /* Colors are same as #c_menu */
 
 .primary-bg {
-   background: #19BEC0;
+   background: #E2392B;
 }
 
 .primary-bg-inverse {
@@ -181,10 +177,18 @@ input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
 }
 
 .primary-fg-inverse {
-   color: #19BEC0;
+   color: #E2392B;
 
    &:hover {
-      color: #19BEC0;
+      color: #E2392B;
+   }
+}
+
+#c_preference a.debugon {
+   color: black !important;
+
+   &:hover {
+      color: black !important;
    }
 }
 
@@ -193,13 +197,16 @@ input.submit:hover, a.vsubmit:hover, #BackToTop:hover {
       color: white;
 
       &:hover {
-         background: #20D6C7;
-         color: white;
+         background: #EF3C2D;
       }
    }
 
-   a:hover {
-      background-color: #19BEC0;
-      color: #113F59;
+   a {
+      color: #C83226;
+
+      &:hover {
+         background-color: #E2392B;
+         color: white;
+      }
    }
 }

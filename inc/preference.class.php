@@ -44,17 +44,17 @@ class Preference extends CommonGLPI {
    }
 
 
-   function defineTabs($options = []) {
+    function defineTabs($options = []) {
 
-      $ong = [];
-      $this->addStandardTab('User', $ong, $options);
-      if (Session::haveRightsOr('personalization', [READ, UPDATE])) {
-         $this->addStandardTab('Config', $ong, $options);
-      }
-      $this->addStandardTab('DisplayPreference', $ong, $options);
+        $ong = [];
+        $this->addStandardTab('User', $ong, $options);
+        if (Session::haveRightsOr('personalization', [READ, UPDATE])) {
+           //$this->addStandardTab('Config', $ong, $options);
+        }
+        $this->addStandardTab('DisplayPreference', $ong, $options);
 
-      $ong['no_all_tab'] = true;
+        $ong['no_all_tab'] = true;
 
-      return $ong;
-   }
+        return $ong;
+    }
 }

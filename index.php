@@ -152,7 +152,7 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
    }
 
    if ($CFG_GLPI["login_remember_time"]) {
-      echo '<p class="login_input">
+      echo '<p class="login_input" style="text-align: right">
             <label for="login_remember" style="color: black; font-size: 10pt;">
                    <input type="checkbox" name="'.$rmbfield.'" id="login_remember"
                    '.($CFG_GLPI['login_remember_default']?'checked="checked"':'').' />
@@ -174,6 +174,7 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
    $js = "$(function() {
       $('#login_name').focus();
    });";
+   
    echo Html::scriptBlock($js);
 
    echo "</div>";  // end login box
@@ -216,11 +217,8 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
    echo "</div>"; // end contenu login
 
    echo '<div id="footer-login" class="home">
-            <a href="http://glpi-project.org/" title="Powered by Teclib and contributors" class="copyright" target="_blank">
-                GLPI Copyright &copy; 2015-2019 Teclib and contributors
-            </a> | 
             <a href="mailto:suporte.dsti@onduline.com.br" title="D.S.T.I. Suporte" class="copyright">
-                D.S.T.I. Suporte
+                Suporte - Departamento de Segurança e Tecnologia da Informação
             </a>
         </div>';
 
