@@ -1,3 +1,11 @@
+<style>
+    html, body {
+        margin-top: 80px;
+    }
+</style>
+<center>
+    <img src="../pics/login_logo_glpi.svg"/>
+</center>
 <?php
 /**
  * ---------------------------------------------------------------------
@@ -35,8 +43,6 @@
  */
 
 include ('../inc/includes.php');
-
-
 if (!isset($_SESSION["glpicookietest"]) || ($_SESSION["glpicookietest"] != 'testcookie')) {
    if (!is_writable(GLPI_SESSION_DIR)) {
       Html::redirect($CFG_GLPI['root_doc'] . "/index.php?error=2");
@@ -59,6 +65,7 @@ if (isset($_SESSION['pwdfield']) && isset($_POST[$_SESSION['pwdfield']])) {
 } else {
    $password = '';
 }
+
 // Manage the selection of the auth source (local, LDAP id, MAIL id)
 if (isset($_POST['auth'])) {
    $login_auth = $_POST['auth'];

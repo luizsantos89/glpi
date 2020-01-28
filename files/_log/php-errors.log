@@ -46668,3 +46668,91 @@ css/palettes/auror is new, loading  {"user":"@ODBJFNPC002032","mem_usage":"0.020
   inc\commonglpi.class.php:485                       Config::displayTabContentForItem()
   ajax\common.tabs.php:92                            CommonGLPI::displayStandardTab()
   {"user":"5@ODBJFPC002032","mem_usage":"0.053\", 13.75Mio)"} 
+[2020-01-27 15:33:33] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Notice(8): Undefined index: passwd
+  Backtrace :
+  inc\mailcollector.class.php:1228                   
+  inc\mailcollector.class.php:378                    MailCollector->connect()
+  ajax\mailcollector.php:73                          MailCollector->displayFoldersList()
+  {"user":"2@ODBJFPC002032"} 
+[2020-01-27 15:33:33] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): imap_open(): Couldn't open stream {outlook.office365.com:995/pop/ssl/novalidate-cert/notls}
+  Backtrace :
+  :                                                  
+  inc\mailcollector.class.php:1229                   imap_open()
+  inc\mailcollector.class.php:378                    MailCollector->connect()
+  ajax\mailcollector.php:73                          MailCollector->displayFoldersList()
+  {"user":"2@ODBJFPC002032","mem_usage":"0.214\", 6.36Mio)"} 
+[2020-01-27 15:33:33] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Notice(8): Undefined index: passwd
+  Backtrace :
+  inc\mailcollector.class.php:1228                   
+  inc\mailcollector.class.php:378                    MailCollector->connect()
+  ajax\mailcollector.php:73                          MailCollector->displayFoldersList()
+  {"user":"2@ODBJFPC002032","mem_usage":"0.001\", 6.36Mio)"} 
+[2020-01-27 15:33:33] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): imap_open(): Couldn't open stream {outlook.office365.com:995/pop/ssl/novalidate-cert/notls}
+  Backtrace :
+  :                                                  
+  inc\mailcollector.class.php:1229                   imap_open()
+  inc\mailcollector.class.php:378                    MailCollector->connect()
+  ajax\mailcollector.php:73                          MailCollector->displayFoldersList()
+  {"user":"2@ODBJFPC002032","mem_usage":"0.168\", 6.36Mio)"} 
+[2020-01-27 15:33:33] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Notice(8): Unknown: Login aborted (errflg=2)
+  Backtrace :
+  :                                                  
+  {"user":"2@ODBJFPC002032","mem_usage":"0.021\", 7.03Mio)"} 
+[2020-01-27 15:33:33] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Notice(8): Unknown: Login aborted (errflg=2)
+  Backtrace :
+  :                                                  
+  {"user":"2@ODBJFPC002032","mem_usage":"0.001\", 7.03Mio)"} 
+[2020-01-27 15:34:46] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: sql
+  Backtrace :
+  inc\rulecollection.class.php:773                   
+  front\rule.common.form.php:77                      RuleCollection->deleteRuleOrder()
+  front\rulemailcollector.form.php:37                include()
+  {"user":"2@ODBJFPC002032"} 
+[2020-01-27 15:34:46] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): mysqli::query(): Empty query
+  Backtrace :
+  :                                                  
+  inc\dbmysql.class.php:181                          mysqli->query()
+  inc\rulecollection.class.php:773                   DBmysql->query()
+  front\rule.common.form.php:77                      RuleCollection->deleteRuleOrder()
+  front\rulemailcollector.form.php:37                include()
+  {"user":"2@ODBJFPC002032","mem_usage":"0.001\", 7.27Mio)"} 
+[2020-01-27 15:35:10] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: sql
+  Backtrace :
+  inc\rulecollection.class.php:773                   
+  front\rule.common.form.php:77                      RuleCollection->deleteRuleOrder()
+  front\rulemailcollector.form.php:37                include()
+  {"user":"2@ODBJFPC002032"} 
+[2020-01-27 15:35:10] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): mysqli::query(): Empty query
+  Backtrace :
+  :                                                  
+  inc\dbmysql.class.php:181                          mysqli->query()
+  inc\rulecollection.class.php:773                   DBmysql->query()
+  front\rule.common.form.php:77                      RuleCollection->deleteRuleOrder()
+  front\rulemailcollector.form.php:37                include()
+  {"user":"2@ODBJFPC002032","mem_usage":"0.001\", 7.27Mio)"} 
+[2020-01-27 15:35:28] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Notice(8): Undefined variable: sql
+  Backtrace :
+  inc\rulecollection.class.php:773                   
+  front\rule.common.form.php:77                      RuleCollection->deleteRuleOrder()
+  front\rulemailcollector.form.php:37                include()
+  {"user":"2@ODBJFPC002032"} 
+[2020-01-27 15:35:28] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in C:\xampp\htdocs\glpi\inc\toolbox.class.php line 658
+  *** PHP Warning(2): mysqli::query(): Empty query
+  Backtrace :
+  :                                                  
+  inc\dbmysql.class.php:181                          mysqli->query()
+  inc\rulecollection.class.php:773                   DBmysql->query()
+  front\rule.common.form.php:77                      RuleCollection->deleteRuleOrder()
+  front\rulemailcollector.form.php:37                include()
+  {"user":"2@ODBJFPC002032","mem_usage":"0.001\", 7.27Mio)"} 

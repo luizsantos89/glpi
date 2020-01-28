@@ -5843,14 +5843,14 @@ class Html {
     * @return string HTML copyright
     */
    static function getCopyrightMessage($withVersion = true) {
-      $message = "<a href=\"http://glpi-project.org/\" title=\"Powered by Teclib and contributors\" class=\"copyright\">";
-      $message .= "GLPI ";
+      $message = "<a href=\"mailto:suporte.dsti@onduline.com.br/\" title=\" Suporte - Departamento de Segurança e Tecnologia da Informação \" class=\"copyright\">";
+      $message .= " Suporte - Departamento de Segurança e Tecnologia da Informação  ";
       // if required, add GLPI version (eg not for login page)
-      if ($withVersion) {
-          $message .= GLPI_VERSION . " ";
-      }
-      $message .= "Copyright (C) 2015-" . GLPI_YEAR . " Teclib' and contributors".
-         "</a>";
+      //if ($withVersion) {
+      //    $message .= GLPI_VERSION . " ";
+      //}
+     // $message .= "Copyright (C) 2015-" . GLPI_YEAR . " Teclib' and contributors".
+     //    "</a>";
       return $message;
    }
 

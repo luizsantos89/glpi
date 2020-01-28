@@ -1,0 +1,27 @@
+[2020-01-27 15:34:46] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\inc\dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: 
+  Error: 
+  Backtrace :
+  inc\rulecollection.class.php:773                   
+  front\rule.common.form.php:77                      RuleCollection->deleteRuleOrder()
+  front\rulemailcollector.form.php:37                include()
+  {"user":"2@ODBJFPC002032","mem_usage":"0.000\", 7.27Mio)"} 
+[2020-01-27 15:35:10] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\inc\dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: 
+  Error: 
+  Backtrace :
+  inc\rulecollection.class.php:773                   
+  front\rule.common.form.php:77                      RuleCollection->deleteRuleOrder()
+  front\rulemailcollector.form.php:37                include()
+  {"user":"2@ODBJFPC002032","mem_usage":"0.000\", 7.27Mio)"} 
+[2020-01-27 15:35:28] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\inc\dbmysql.class.php line 188
+  *** MySQL query error:
+  SQL: 
+  Error: 
+  Backtrace :
+  inc\rulecollection.class.php:773                   
+  front\rule.common.form.php:77                      RuleCollection->deleteRuleOrder()
+  front\rulemailcollector.form.php:37                include()
+  {"user":"2@ODBJFPC002032","mem_usage":"0.000\", 7.27Mio)"} 

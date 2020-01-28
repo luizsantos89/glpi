@@ -1,3 +1,4 @@
+
 <?php
 /**
  * ---------------------------------------------------------------------
@@ -101,12 +102,21 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
    echo Html::script("lib/fuzzy/fuzzy-min.js");
   // echo Html::css('lib/jqueryplugins/select2/css/select2.css');
    echo Html::script('js/common.js');
+   
 
    echo "</head>";
-
+?>
+<style>
+    body {
+        background-image: url('pics/background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+<?php
    echo "<body><div>";
    echo "<div id='logo_login'></div>";
-   echo "<div id='text-login'> Sistema de Atendimento - Suporte</div>";
+   echo "<div id='text-login'>Sistema de Atendimento - Suporte</div>";
 
    echo "<div id='boxlogin'>";
    echo "<form action=".$CFG_GLPI["root_doc"]."/front/login.php method='post'>";
@@ -169,7 +179,7 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
                     </a>';
    Html::closeForm();
    
-   echo '<br><br><center><img src="pics/logos/logo-GLPI-100-black.png" /></center>';
+   echo '<br><br><center><a href="http://glpi-project.org/" title="Powered by Teclib and contributors" target="_blank"><img src="pics/logos/logo-GLPI-100-black.png" /></a></center>';
    
    $js = "$(function() {
       $('#login_name').focus();
