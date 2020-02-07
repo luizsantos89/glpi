@@ -65,6 +65,8 @@ if (isset($_GET["active_entity"])) {
    }
 }
 
+
+
 Html::header(Central::getTypeName(1), $_SERVER['PHP_SELF'], 'central', 'central');
 
 // Redirect management
@@ -74,6 +76,17 @@ if (isset($_GET["redirect"])) {
 
 $central = new Central();
 $central->display();
+
+echo '<!-- TeamViewer Logo (generated at https://www.teamviewer.com) --><br><br><center>
+        <div style="position:relative; width:120px; height:60px;">
+          <a href="https://customdesign.teamviewer.com/download/version_13x/67gh3zy_windows/TeamViewerQS.exe" style="text-decoration:none;">
+            <img src="https://www.teamviewer.com/link/?url=979936&id=1604171444" alt="Baixe a versão completa do TeamViewer" title="Baixe a versão completa do TeamViewer" border="0" width="120" height="60" />
+            <span style="position:absolute; top:25.5px; left:50px; display:block; cursor:pointer; color:White; font-family:Arial; font-size:10px; line-height:1.2em; font-weight:bold; text-align:center; width:65px;">
+               Teamviewer Onduline
+            </span>
+          </a>
+        </div></center>';
+   
 
 Html::footer();
 

@@ -5844,13 +5844,13 @@ class Html {
     */
    static function getCopyrightMessage($withVersion = true) {
       $message = "<a href=\"mailto:suporte.dsti@onduline.com.br/\" title=\" Suporte - Departamento de Segurança e Tecnologia da Informação \" class=\"copyright\">";
-      $message .= " Suporte - Departamento de Segurança e Tecnologia da Informação  ";
+      $message .= " Suporte - Departamento de Segurança e Tecnologia da Informação";
       // if required, add GLPI version (eg not for login page)
       //if ($withVersion) {
       //    $message .= GLPI_VERSION . " ";
-      //}
-     // $message .= "Copyright (C) 2015-" . GLPI_YEAR . " Teclib' and contributors".
-     //    "</a>";
+     // }
+      //$message .= "Copyright (C) 2015-" . GLPI_YEAR . " Teclib' and contributors".
+      "</a>";
       return $message;
    }
 

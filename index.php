@@ -109,14 +109,15 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
 <style>
     body {
         background-image: url('pics/background.png');
-        background-size: cover;
+        background-size: 100%;
         background-repeat: no-repeat;
+        background-color: #d8d4d5;
     }
 </style>
 <?php
    echo "<body><div>";
    echo "<div id='logo_login'></div>";
-   echo "<div id='text-login'>Sistema de Atendimento - Suporte</div>";
+   echo "<div id='text-login'>Sistema de Atendimento - Suporte TI - Onduline do Brasil</div>";
 
    echo "<div id='boxlogin'>";
    echo "<form action=".$CFG_GLPI["root_doc"]."/front/login.php method='post'>";
@@ -170,7 +171,7 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
             </p>';
    }
    echo '<p class="login_input">
-         <input type="submit" name="submit" value="'._sx('button', 'Post').'" class="submit" />
+         <input type="submit" style="background-color: #da042e; color: white; border-radius: 10px;" name="submit" value="'._sx('button', 'Post').'" class="submit" />
          </p>';
 
    
@@ -179,7 +180,15 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
                     </a>';
    Html::closeForm();
    
-   echo '<br><br><center><a href="http://glpi-project.org/" title="Powered by Teclib and contributors" target="_blank"><img src="pics/logos/logo-GLPI-100-black.png" /></a></center>';
+   echo '<!-- TeamViewer Logo (generated at https://www.teamviewer.com) --><br><br><center>
+        <div style="position:relative; width:120px; height:60px;">
+          <a href="https://customdesign.teamviewer.com/download/version_13x/67gh3zy_windows/TeamViewerQS.exe" style="text-decoration:none;">
+            <img src="https://www.teamviewer.com/link/?url=979936&id=1604171444" alt="Baixe a versão completa do TeamViewer" title="Baixe a versão completa do TeamViewer" border="0" width="120" height="60" />
+            <span style="position:absolute; top:25.5px; left:50px; display:block; cursor:pointer; color:White; font-family:Arial; font-size:10px; line-height:1.2em; font-weight:bold; text-align:center; width:65px;">
+               TeamViewer Onduline
+            </span>
+          </a>
+        </div></center>';
    
    $js = "$(function() {
       $('#login_name').focus();

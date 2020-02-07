@@ -302,3 +302,127 @@ Interno #1: Executar olaticket
 Interno #1: Executar queuednotification
 2020-01-28 14:58:42 [@ODBJFPC002032]
 Interno #1: Nada a ser executado
+2020-01-29 11:38:16 [@ODBJFPC002032]
+Interno #1: Executar queuednotification
+2020-01-29 12:50:57 [@ODBJFPC002032]
+Interno #1: Executar slaticket
+2020-01-29 12:51:05 [@ODBJFPC002032]
+Interno #1: Executar ticketrecurrent
+2020-01-29 13:04:07 [@ODBJFPC002032]
+Interno #1: Executar planningrecall
+2020-01-29 13:10:11 [2@ODBJFPC002032]
+Interno #1: Executar olaticket
+2020-01-29 13:57:36 [2@ODBJFPC002032]
+Interno #1: Executar mailgate
+2020-01-29 14:59:09 [2@ODBJFPC002032]
+Interno #1: Executar graph
+2020-01-29 15:02:36 [@ODBJFPC002032]
+Interno #1: Executar temp
+2020-01-29 16:41:21 [@ODBJFPC002032]
+Interno #1: Executar reservation
+2020-01-29 16:41:30 [@ODBJFPC002032]
+Interno #1: Executar closeticket
+2020-01-29 16:42:22 [@ODBJFPC002032]
+Interno #1: Executar alertnotclosed
+2020-01-29 16:42:28 [@ODBJFPC002032]
+Interno #1: Executar queuednotification
+2020-01-29 16:43:11 [@ODBJFPC002032]
+Interno #1: Executar createinquest
+2020-01-31 12:49:57 [@ODBJFPC002032]
+Interno #1: Executar watcher
+2020-01-31 13:35:50 [@ODBJFPC002032]
+Interno #1: Executar slaticket
+2020-01-31 13:37:13 [@ODBJFPC002032]
+Interno #1: Executar queuednotificationclean
+2020-01-31 17:18:46 [@ODBJFPC002032]
+Interno #1: Executar mailgateerror
+2020-01-31 20:13:06 [@ODBJFPC002032]
+Interno #1: Executar contract
+2020-02-04 13:44:49 [@ODBJFPC002032]
+Interno #1: Executar planningrecall
+2020-02-04 15:27:18 [@ODBJFPC002032]
+Interno #1: Executar olaticket
+2020-02-04 18:30:06 [@ODBJFPC002032]
+Interno #1: Executar infocom
+2020-02-04 18:30:16 [@ODBJFPC002032]
+Interno #1: Executar session
+2020-02-04 18:37:16 [2@ODBJFPC002032]
+Interno #1: Executar ticketrecurrent
+2020-02-04 19:42:21 [2@ODBJFPC002032]
+Interno #1: Executar telemetry
+2020-02-04 19:43:06 [@ODBJFPC002032]
+Interno #1: Executar ticketrecurrent
+2020-02-04 20:04:31 [2@ODBJFPC002032]
+Interno #1: Executar temp
+2020-02-07 13:20:11 [@ODBJFPC002032]
+Interno #1: Executar graph
+2020-02-07 13:21:56 [@ODBJFPC002032]
+Interno #1: Executar slaticket
+2020-02-07 13:23:22 [@ODBJFPC002032]
+Interno #1: Executar planningrecall
+2020-02-07 13:23:47 [@ODBJFPC002032]
+Interno #1: Executar reservation
+2020-02-07 13:23:58 [@ODBJFPC002032]
+Interno #1: Executar alertnotclosed
+2020-02-07 13:24:15 [@ODBJFPC002032]
+Interno #1: Executar watcher
+2020-02-07 13:24:17 [@ODBJFPC002032]
+Interno #1: Executar certificate
+2020-02-07 13:26:17 [@ODBJFPC002032]
+Interno #1: Executar createinquest
+2020-02-07 13:26:24 [@ODBJFPC002032]
+Interno #1: Executar session
+2020-02-07 15:43:54 [@ODBJFPC002032]
+Interno #1: Executar contract
+2020-02-07 15:44:45 [@ODBJFPC002032]
+Interno #1: Executar infocom
+2020-02-07 15:45:02 [@ODBJFPC002032]
+Interno #1: Executar checkupdate
+2020-02-07 15:45:15 [@ODBJFPC002032]
+Interno #1: Executar ticketrecurrent
+2020-02-07 15:45:35 [@ODBJFPC002032]
+Interno #1: Executar temp
+2020-02-07 15:45:50 [@ODBJFPC002032]
+Interno #1: Executar slaticket
+2020-02-07 15:54:54 [@ODBJFPC002032]
+Interno #1: Executar planningrecall
+2020-02-07 15:56:15 [@ODBJFPC002032]
+Interno #1: Executar graph
+2020-02-07 15:58:34 [@ODBJFPC002032]
+Interno #1: Executar reservation
+2020-02-07 15:59:14 [@ODBJFPC002032]
+Interno #1: Executar slaticket
+2020-02-07 15:59:41 [@ODBJFPC002032]
+Interno #1: Executar planningrecall
+2020-02-07 16:06:51 [@ODBJFPC002032]
+Interno #1: Executar slaticket
+2020-02-07 16:07:12 [@ODBJFPC002032]
+Interno #1: Executar planningrecall
+2020-02-07 16:07:26 [@ODBJFPC002032]
+Interno #1: Nada a ser executado
+2020-02-07 16:07:42 [@ODBJFPC002032]
+Interno #1: Nada a ser executado
+2020-02-07 16:07:54 [@ODBJFPC002032]
+Interno #1: Nada a ser executado
+2020-02-07 16:08:19 [@ODBJFPC002032]
+Interno #1: Nada a ser executado
+2020-02-07 16:08:20 [@ODBJFPC002032]
+Interno #1: Nada a ser executado
+2020-02-07 16:20:20 [@ODBJFPC002032]
+Interno #1: Executar slaticket
+2020-02-07 16:36:28 [@ODBJFPC002032]
+Interno #1: Executar planningrecall
+2020-02-07 18:07:05 [@ODBJFPC002032]
+Interno #1: Executar slaticket
+2020-02-07 18:24:43 [@ODBJFPC002032]
+Interno #1: Executar planningrecall
+2020-02-07 18:24:58 [@ODBJFPC002032]
+Interno #1: Executar ticketrecurrent
+2020-02-07 18:26:27 [@ODBJFPC002032]
+Interno #1: Executar temp
+2020-02-07 18:28:46 [@ODBJFPC002032]
+Interno #1: Executar graph
+2020-02-07 18:29:06 [@ODBJFPC002032]
+Interno #1: Executar reservation
+2020-02-07 18:29:08 [@ODBJFPC002032]
+Interno #1: Executar slaticket

@@ -1,0 +1,11 @@
+2020-01-29 13:11:18 [2@ODBJFPC002032]
+0 segundo for "Installation of plugin FusionInventory" @ 2020-01-29 13:11:18 [2@ODBJFPC002032]
+0 segundo for "Clean data from old installation of the plugin" @ 2020-01-29 13:11:18 [2@ODBJFPC002032]
+0 segundo for "Clean rules from old installation of the plugin" @ 2020-01-29 13:11:22 [2@ODBJFPC002032]
+4 segundos for "Creation tables in database" @ 2020-01-29 13:11:22 [2@ODBJFPC002032]
+0 segundo for "Creation of folders" @ 2020-01-29 13:11:23 [2@ODBJFPC002032]
+1 segundo for "Initialize profiles" @ 2020-01-29 13:11:24 [2@ODBJFPC002032]
+1 segundo for "Initialize configuration" @ 2020-01-29 13:11:24 [2@ODBJFPC002032]
+0 segundo for "Initialize agent TASKS" @ 2020-01-29 13:11:24 [2@ODBJFPC002032]
+0 segundo for "Initialize cron task" @ 2020-01-29 13:11:25 [2@ODBJFPC002032]
+1 segundo for "Create rules" @ 
